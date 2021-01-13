@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="1.xslt"?>
+<laptopy_ibm_thinkpad>
+	<serie_liczbowe>
+		<seria_300>
+			<laptop>
+				<model produkcja="1997" wersja="podstawowa">380</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina> Pentium II</rodzina>
+					<czestotliwosc>150MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Tak">
+					<typ>EDO</typ>
+					<pojemnosc jednostka="MB">16</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>NeoMagic</producent>
+					<model_gpu>MagicMedia 128XD</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">1</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows 95</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 1995</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>800</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>600</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>12.1</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="1998" wersja="podstawowa">390</model>
+				<procesor MMX="Tak">
+					<producent>Intel</producent>
+					<rodzina> Pentium II</rodzina>
+					<czestotliwosc>233MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Tak">
+					<typ>SDRAM</typ>
+					<pojemnosc jednostka="MB">64</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>NeoMagic</producent>
+					<model_gpu>MagicMedia 256AV</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">80</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows 98 Second Edition</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 1997</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>800</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>600</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>12.1</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="1999" wersja="rozbudowana">390X</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina> Pentium III</rodzina>
+					<czestotliwosc>450MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>SDRAM</typ>
+					<pojemnosc jednostka="MB">128</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>NeoMagic</producent>
+					<model_gpu>MagicMedia 256AV</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">80</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows 98 Second Edition</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 1997</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>12.1</wielkosc>
+				</matryca>
+			</laptop>
+			<dodatkowe_informacje>
+				<link source="http://www.thinkwiki.org/wiki/Category:3_Series"/>
+				<link source="https://en.wikipedia.org/wiki/ThinkPad#300_Series"/>
+				<zdjecie source="./380D.jpg" />
+			</dodatkowe_informacje>
+		</seria_300>
+		<seria_500>
+			<laptop>
+				<model produkcja="1998" wersja="podstawowa">570</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina> Pentium II</rodzina>
+					<czestotliwosc>300MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>SDRAM</typ>
+					<pojemnosc jednostka="MB">96</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>NeoMagic</producent>
+					<model_gpu>MagicMedia 256AV</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">30</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows 98 Second Edition</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2000</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>800</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>600</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>12.1</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="1998" wersja="rozbudowana">570</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina> Pentium II</rodzina>
+					<czestotliwosc>366MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>SDRAM</typ>
+					<pojemnosc jednostka="MB">64</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>NeoMagic</producent>
+					<model_gpu>MagicMedia 256AV</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">80</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows 98 Second Edition</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 1997</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>13.3</wielkosc>
+				</matryca>
+			</laptop>
+			<dodatkowe_informacje>
+				<link source="http://www.thinkwiki.org/wiki/Category:5_Series"/>
+				<link source="https://en.wikipedia.org/wiki/ThinkPad#500_Series"/>
+				<zdjecie source="./570.jpg" />
+			</dodatkowe_informacje>
+		</seria_500>
+		<seria_600>
+			<laptop>
+				<model produkcja="2000" wersja="rozbudowana">600X</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina> Pentium III</rodzina>
+					<czestotliwosc>450MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>SDRAM</typ>
+					<pojemnosc jednostka="MB">64</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>NeoMagic</producent>
+					<model_gpu>MagicMedia 256AV</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">60</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows Millenium Edition</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 1997</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>13.3</wielkosc>
+				</matryca>
+			</laptop>
+			<dodatkowe_informacje>
+				<link source="http://www.thinkwiki.org/wiki/Category:6_Series"/>
+				<link source="https://en.wikipedia.org/wiki/ThinkPad#600_Series"/>
+				<zdjecie source="600.jpg" />
+			</dodatkowe_informacje>
+		</seria_600>
+		<seria_700>
+			<laptop>
+				<model produkcja="1994" wersja="podstawowa">750C</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina> 486 DX2</rodzina>
+					<czestotliwosc>33MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>IC</typ>
+					<pojemnosc jednostka="MB">12</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>NeoMagic</producent>
+					<model_gpu>WD90C24</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="MB">340</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows 3.1</system_operacyjny>
+				<pakiet_biurowy jezyk="Angielski">Microsoft Office 4.0</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>640</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>480</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>10.4</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="1994" wersja="rozbudowana">755C</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina> 486 DX2</rodzina>
+					<czestotliwosc>50MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>IC</typ>
+					<pojemnosc jednostka="MB">12</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>NeoMagic</producent>
+					<model_gpu>WD90C24</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="MB">340</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows 3.1</system_operacyjny>
+				<pakiet_biurowy jezyk="Angielski">Microsoft Office 4.0</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>640</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>480</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>10.4</wielkosc>
+				</matryca>
+			</laptop>
+			<dodatkowe_informacje>
+				<link source="http://www.thinkwiki.org/wiki/Category:7_Series"/>
+				<link source="https://en.wikipedia.org/wiki/ThinkPad#700_Series"/>
+				<zdjecie source="./770.jpg" />
+			</dodatkowe_informacje>
+		</seria_700>
+	</serie_liczbowe>
+	<serie_literowe>
+		<seria_T>
+			<laptop>
+				<model produkcja="2001" wersja="podstawowa">T20</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina> Pentium III</rodzina>
+					<czestotliwosc>750MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>SDRAM</typ>
+					<pojemnosc jednostka="MB">256</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>S3</producent>
+					<model_gpu>SuperSavage IXC 1014</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">40</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows 2000</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2000</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>14.1</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="2004" wersja="rozbudowana">T30</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina> Pentium IV</rodzina>
+					<czestotliwosc>2000MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR</typ>
+					<pojemnosc jednostka="MB">1024</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>ATI</producent>
+					<model_gpu>Mobility Radeon 7500</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">30</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2003</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>14.1</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="2006" wersja="podstawowa">T40</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina> Pentium M</rodzina>
+					<czestotliwosc>1300MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR</typ>
+					<pojemnosc jednostka="MB">512</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>ATI</producent>
+					<model_gpu>Mobility Radeon 7500</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">80</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office XP</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>14.1</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="2008" wersja="podstawowa">T60</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Core 2 Duo</rodzina>
+					<czestotliwosc>1830MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR2</typ>
+					<pojemnosc jednostka="GB">2</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>Intel</producent>
+					<model_gpu>Intel iGPU</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="SATA">
+					<pojemnosc jednostka="GB">320</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2003</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>15.4</wielkosc>
+				</matryca>
+			</laptop>
+			<dodatkowe_informacje>
+				<link source="http://www.thinkwiki.org/wiki/Category:T_Series"/>
+				<link source="https://en.wikipedia.org/wiki/ThinkPad#T_Series_(2000–current)"/>
+				<zdjecie source="./ThinkPad_T20.jpg" />
+			</dodatkowe_informacje>
+		</seria_T>
+		<seria_R>
+			<laptop>
+				<model produkcja="2004" wersja="podstawowa">R31</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Celeron M</rodzina>
+					<czestotliwosc>1133MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR</typ>
+					<pojemnosc jednostka="MB">256</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>Intel</producent>
+					<model_gpu>Intel iGPU</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">40</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2003</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>14.1</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="2006" wersja="podstawowa">R40</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Pentium M</rodzina>
+					<czestotliwosc>1400MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR</typ>
+					<pojemnosc jednostka="MB">512</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>ATI</producent>
+					<model_gpu>Mobility Radeon 7500</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">80</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2003</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>14.1</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="2007" wersja="podstawowa">R50</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Pentium M</rodzina>
+					<czestotliwosc>1600MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR</typ>
+					<pojemnosc jednostka="MB">512</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>Intel</producent>
+					<model_gpu>Intel iGPU</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">80</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office XP</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>15.4</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="2008" wersja="podstawowa">R60</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Core 2 Duo</rodzina>
+					<czestotliwosc>1666MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR2</typ>
+					<pojemnosc jednostka="GB">2</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>Intel</producent>
+					<model_gpu>Intel iGPU</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="SATA">
+					<pojemnosc jednostka="GB">320</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office XP</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>15.4</wielkosc>
+				</matryca>
+			</laptop>
+			<dodatkowe_informacje>
+				<link source="http://www.thinkwiki.org/wiki/Category:R_Series"/>
+				<link source="https://en.wikipedia.org/wiki/ThinkPad#R_Series_(2001–2010,_2018-2019)"/>
+				<zdjecie source="./R30.webp" />
+			</dodatkowe_informacje>
+		</seria_R>
+		<seria_A>
+			<laptop>
+				<model produkcja="2004" wersja="rozbudowana">A31</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Pentium 4-M</rodzina>
+					<czestotliwosc>1800MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR</typ>
+					<pojemnosc jednostka="GB">1</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>ATI</producent>
+					<model_gpu>Mobility Radeon 7500</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">80</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2003</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1400</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>1050</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>15.0</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="2004" wersja="podstawowa">A31</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Pentium 4-M</rodzina>
+					<czestotliwosc>1600MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR</typ>
+					<pojemnosc jednostka="GB">2</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>ATI</producent>
+					<model_gpu>Mobility Radeon 7500</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">60</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows 2000</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2000</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>15.0</wielkosc>
+				</matryca>
+			</laptop>
+			<dodatkowe_informacje>
+				<link source="http://www.thinkwiki.org/wiki/Category:A_Series"/>
+				<link source="https://en.wikipedia.org/wiki/ThinkPad#A_Series_(2000–2004)"/>
+				<zdjecie source="./a21m.jpg" />
+			</dodatkowe_informacje>
+		</seria_A>
+		<seria_Z>
+			<laptop>
+				<model produkcja="2005" wersja="podstawowa">Z60m</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Pentium M</rodzina>
+					<czestotliwosc>2000MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR2</typ>
+					<pojemnosc jednostka="GB">2</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>ATI</producent>
+					<model_gpu>Mobility Radeon X600</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="SATA">
+					<pojemnosc jednostka="GB">100</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office XP</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1680</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>1050</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>15.4</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="2007" wersja="podstawowa">Z61m</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Core 2 Duo</rodzina>
+					<czestotliwosc>2000MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR2</typ>
+					<pojemnosc jednostka="GB">2</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>ATI</producent>
+					<model_gpu>Mobility Radeon X1400</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="SATA">
+					<pojemnosc jednostka="GB">320</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2003</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1680</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>1050</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>15.4</wielkosc>
+				</matryca>
+			</laptop>
+			<dodatkowe_informacje>
+				<link source="http://www.thinkwiki.org/wiki/Category:Z_Series"/>
+				<link source="https://en.wikipedia.org/wiki/ThinkPad#Z_Series_(2005–2007)"/>
+				<zdjecie source="./z60m.jpg" />
+			</dodatkowe_informacje>
+		</seria_Z>
+		<seria_i>
+			<laptop>
+				<model produkcja="1999" wersja="podstawowa">i1300</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Celeron M</rodzina>
+					<czestotliwosc>700MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Tak">
+					<typ>SDRAM</typ>
+					<pojemnosc jednostka="MB">64</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>Trident</producent>
+					<model_gpu>CyberBlade Ai1 AGP</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">60</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows Millenium Edition</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2000</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>13.3</wielkosc>
+				</matryca>
+			</laptop>
+			<dodatkowe_informacje>
+				<link source="http://www.thinkwiki.org/wiki/Category:I_Series"/>
+				<link source="https://en.wikipedia.org/wiki/ThinkPad#i_Series_(1998–2002)"/>
+				<zdjecie source="./i1300.webp" />
+			</dodatkowe_informacje>
+		</seria_i>
+		<seria_X>
+			<laptop>
+				<model produkcja="2001" wersja="podstawowa">X21</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Pentium III-M</rodzina>
+					<czestotliwosc>700MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>SDRAM</typ>
+					<pojemnosc jednostka="MB">256</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>ATI</producent>
+					<model_gpu>Rage P/M</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">20</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows 2000</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2000</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>12.1</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="2002" wersja="podstawowa">X30</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Pentium III-M</rodzina>
+					<czestotliwosc>1200MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR</typ>
+					<pojemnosc jednostka="MB">512</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>Intel</producent>
+					<model_gpu>Intel iGPU</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">80</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office XP</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>12.1</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="2002" wersja="podstawowa">X40</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Pentium M</rodzina>
+					<czestotliwosc>1200MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR2</typ>
+					<pojemnosc jednostka="MB">1024</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>Intel</producent>
+					<model_gpu>Intel iGPU</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">60</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office XP</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>12.1</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="2002" wersja="podstawowa">X41 Tablet</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Pentium III-M</rodzina>
+					<czestotliwosc>1500MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR2</typ>
+					<pojemnosc jednostka="MB">1536</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>Intel</producent>
+					<model_gpu>Intel iGPU</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="ATA">
+					<pojemnosc jednostka="GB">40</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows XP</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office XP</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>12.1</wielkosc>
+				</matryca>
+			</laptop>
+			<laptop>
+				<model produkcja="2002" wersja="podstawowa">X60 Tablet</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Core Duo</rodzina>
+					<czestotliwosc>1660MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR2</typ>
+					<pojemnosc jednostka="GB">2</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>Intel</producent>
+					<model_gpu>Intel iGPU</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="SATA">
+					<pojemnosc jednostka="GB">160</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows Vista</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2007</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1024</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>768</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>12.1</wielkosc>
+				</matryca>
+			</laptop>
+			<dodatkowe_informacje>
+				<link source="http://www.thinkwiki.org/wiki/Category:X_Series"/>
+				<link source="https://en.wikipedia.org/wiki/ThinkPad#X_Series_(2000–current)"/>
+				<zdjecie source="./x21.jpg" />
+			</dodatkowe_informacje>
+		</seria_X>
+	</serie_literowe>
+	<serie_epoki_Lenovo>
+		<seria_SL>
+			<laptop>
+				<model produkcja="2008" wersja="rozbudowana">SL500</model>
+				<procesor MMX="Nie">
+					<producent>Intel</producent>
+					<rodzina>Core 2 Duo</rodzina>
+					<czestotliwosc>2400MHz</czestotliwosc>
+				</procesor>
+				<RAM lutowany="Nie">
+					<typ>DDR2</typ>
+					<pojemnosc jednostka="GB">3</pojemnosc>
+				</RAM>
+				<karta_graficzna>
+					<producent>Nvidia</producent>
+					<model_gpu>GeForce 9300M</model_gpu>
+				</karta_graficzna>
+				<dysk rodzaj_zlacza="SATA">
+					<pojemnosc jednostka="GB">80</pojemnosc>
+				</dysk>
+				<system_operacyjny jezyk="Polski">Windows Vista</system_operacyjny>
+				<pakiet_biurowy jezyk="Polski">Microsoft Office 2007</pakiet_biurowy>
+				<matryca>
+					<rozdzielczosc>
+						<ilosc_pikseli_poziom>1680</ilosc_pikseli_poziom>
+						<ilosc_pikseli_pion>1050</ilosc_pikseli_pion>
+					</rozdzielczosc>
+					<wielkosc>15.4</wielkosc>
+				</matryca>
+			</laptop>
+			<dodatkowe_informacje>
+				<link source="http://www.thinkwiki.org/wiki/Category:SL_Series"/>
+				<link source="https://en.wikipedia.org/wiki/ThinkPad#SL_Series_(2008–2010)"/>
+				<zdjecie source="sl500.jpg" />
+			</dodatkowe_informacje>
+		</seria_SL>
+	</serie_epoki_Lenovo>
+	<dodatkowe>
+		Wojciech Panfil 184657
+		<klauzula>I love IBM</klauzula>
+		<wydarzenie>
+		Wydanie ThinkPad 1994-04
+		</wydarzenie>
+	</dodatkowe>
+</laptopy_ibm_thinkpad>

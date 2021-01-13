@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xs:element name="laptopy_ibm_thinkpad" >
+		<xs:complexType >
+			<xs:sequence>
+				<xs:element name="serie_liczbowe">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="seria_300" type="SeriaType" />
+							<xs:element name="seria_500" type="SeriaType" />
+							<xs:element name="seria_600" type="SeriaType" />
+							<xs:element name="seria_700" type="SeriaType" />
+						</xs:all>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="serie_literowe">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="seria_T" type="SeriaType" />
+							<xs:element name="seria_R" type="SeriaType" />
+							<xs:element name="seria_A" type="SeriaType" />
+							<xs:element name="seria_Z" type="SeriaType" />
+							<xs:element name="seria_i" type="SeriaType" />
+							<xs:element name="seria_X" type="SeriaType" />
+						</xs:all>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="serie_epoki_Lenovo">
+					<xs:complexType>
+						<xs:choice>
+							<xs:element name="seria_SL" type="SeriaType" />
+						</xs:choice>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dodatkowe">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="klauzula">
+								<xs:simpleType>
+									<xs:list itemType="shortStringType" />
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="wydarzenie" maxOccurs="unbounded">
+								<xs:simpleType>
+									<xs:restriction>
+										<xs:simpleType>
+											<xs:list>
+												<xs:simpleType>
+													<xs:union memberTypes="shortStringType shortDateType" />
+												</xs:simpleType>
+											</xs:list>
+										</xs:simpleType>
+										<xs:length value="3"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="shortDateType">
+		<xs:restriction base="xs:gYearMonth">
+			<xs:whiteSpace value="collapse" fixed="true"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="shortStringType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="LenovoType">
+		
+	</xs:complexType>
+	<xs:complexType name="SeriaType">
+		<xs:sequence>
+			<xs:element name="laptop" type="LaptopType" maxOccurs="unbounded"/>
+			<xs:element name="dodatkowe_informacje" type="InformacjeType" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LaptopType">
+		<xs:sequence>
+			<xs:element name="model" type="ModelType" />
+			<xs:element name="procesor" type="ProcesorType" />
+			<xs:element name="RAM" type="RAMType" />
+			<xs:element name="karta_graficzna" type="Karta_GraficznaType" />
+			<xs:element name="dysk" type="DyskType" />
+			<xs:element name="system_operacyjny" type="System_OperacyjnyType" />
+			<xs:element name="pakiet_biurowy" type="Pakiet_BiurowyType" />
+			<xs:element name="matryca" type="MatrycaType" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ModelType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="produkcja" type="ProdukcjaType" />
+				<xs:attribute name="wersja" type="WersjaType" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:simpleType name="ProdukcjaType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[1-2]{1}[0-9]{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="WersjaType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="podstawowa|rozbudowana" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="ProcesorType">
+		<xs:sequence>
+			<xs:element ref="producent" />
+			<xs:element name="rodzina" type="RodzinaType" />
+			<xs:element name="czestotliwosc" type="CzestotliwoscType" />
+		</xs:sequence>
+		<xs:attribute name="MMX" default="Nie">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="Tak|Nie" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:element name="producent" type="ProducentType" />
+	<xs:simpleType name="ProducentType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Intel"/>
+			<xs:enumeration value="ATI"/>
+			<xs:enumeration value="AMD"/>
+			<xs:enumeration value="Nvidia"/>
+			<xs:enumeration value="S3"/>
+			<xs:enumeration value="NeoMagic"/>
+			<xs:enumeration value="Trident"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="RodzinaType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="15"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CzestotliwoscType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="4"/>
+			<xs:maxLength value="7"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="RAMType">
+		<xs:all>
+			<xs:element name="typ" type="TypType" />
+			<xs:element name="pojemnosc" type="PojemnoscType" />
+		</xs:all>
+		<xs:attribute name="lutowany" default="Nie">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="Tak|Nie" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:simpleType name="TypType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="2"/>
+			<xs:maxLength value="5"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="PojemnoscType">
+		<xs:simpleContent>
+			<xs:extension base="xs:nonNegativeInteger">
+				<xs:attribute ref="jednostka"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:attribute name="jednostka" type="JednostkaType" />
+	<xs:simpleType name="JednostkaType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="KB|MB|GB" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="Karta_GraficznaType">
+		<xs:all>
+			<xs:element ref="producent" />
+			<xs:element name="model_gpu" type="GPU_ModelType" />
+		</xs:all>
+	</xs:complexType>
+	<xs:simpleType name="GPU_ModelType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="25"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="DyskType">
+		<xs:sequence>
+			<xs:element name="pojemnosc">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:decimal">
+							<xs:attribute ref="jednostka"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="rodzaj_zlacza" default="ATA">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="ATA|SATA" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="System_OperacyjnyType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="jezyk" type="JezykType" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:simpleType name="JezykType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="Polski|Angielski" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="Pakiet_BiurowyType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="jezyk" type="JezykType" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="MatrycaType">
+		<xs:all>
+			<xs:element name="rozdzielczosc" type="RozdzielczoscType" />
+			<xs:element name="wielkosc" type="WielkoscType" />
+		</xs:all>
+	</xs:complexType>
+	<xs:complexType name="RozdzielczoscType">
+		<xs:sequence>
+			<xs:group ref="RozdzielczoscGroup" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:group name="RozdzielczoscGroup">
+		<xs:sequence>
+			<xs:element name="ilosc_pikseli_poziom" type="PikselType" />
+			<xs:element name="ilosc_pikseli_pion" type="PikselType" />
+		</xs:sequence>
+	</xs:group>
+	<xs:simpleType name="PikselType">
+		<xs:restriction base="xs:decimal">
+			<xs:totalDigits value="4" />
+			<xs:minInclusive value="100"/>
+			<xs:maxInclusive value="2000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="WielkoscType">
+		<xs:restriction base="xs:float">
+			<xs:pattern value="[0-9]{2}.[0-9]{1}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="InformacjeType">
+		<xs:sequence>
+			<xs:element name="link" type="LinkType" />
+			<xs:element name="zdjecie" type="ZdjecieType" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LinkType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="source">
+					<xs:simpleType>
+						<xs:restriction base="xs:anyURI">
+							<xs:pattern value='https?://.+'/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ZdjecieType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="source" type="xs:anyURI" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>

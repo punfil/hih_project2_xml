@@ -1,0 +1,56 @@
+<!ENTITY % jezyk_entity
+		"jezyk CDATA #IMPLIED">
+<!ENTITY % link_entity
+		"source CDATA #REQUIRED">
+<!ENTITY EVENT SYSTEM 'strona.ent'>
+<!ENTITY AUTHOR "Wojciech Panfil 184657">
+<!ELEMENT laptopy_ibm_thinkpad (autor?, serie_liczbowe?, serie_literowe?, serie_epoki_Lenovo?, dodatkowe*)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT serie_liczbowe (seria_300?, seria_500?, seria_600?, seria_700? )>
+<!ELEMENT serie_literowe (seria_T?, seria_R?, seria_A?, seria_Z?, seria_i?, seria_X?)>
+<!ELEMENT serie_epoki_Lenovo (seria_SL?)>
+<!ELEMENT dodatkowe (#PCDATA | klauzula | wydarzenie )*>
+<!ELEMENT seria_300 (laptop+,dodatkowe_informacje?)>
+<!ELEMENT seria_500 (laptop+,dodatkowe_informacje?)>
+<!ELEMENT seria_600 (laptop+,dodatkowe_informacje?)>
+<!ELEMENT seria_700 (laptop+,dodatkowe_informacje?)>
+<!ELEMENT seria_T (laptop+,dodatkowe_informacje?)>
+<!ELEMENT seria_R (laptop+,dodatkowe_informacje?)>
+<!ELEMENT seria_A (laptop+,dodatkowe_informacje?)>
+<!ELEMENT seria_Z (laptop+,dodatkowe_informacje?)>
+<!ELEMENT seria_i (laptop+,dodatkowe_informacje?)>
+<!ELEMENT seria_X (laptop+,dodatkowe_informacje?)>
+<!ELEMENT seria_SL (laptop+,dodatkowe_informacje?)>
+<!ELEMENT laptop (model?,procesor?,RAM?,karta_graficzna?,dysk?,system_operacyjny?,pakiet_biurowy?,matryca?)>
+<!ELEMENT dodatkowe_informacje (link?, zdjecie?)>
+<!ELEMENT model (#PCDATA)>
+<!ATTLIST model produkcja CDATA #IMPLIED wersja (podstawowa|rozbudowana) #REQUIRED>
+<!ELEMENT procesor (producent?, rodzina?, czestotliwosc?)>
+<!ATTLIST procesor MMX (Tak|Nie) 'Nie'>
+<!ELEMENT producent (#PCDATA)>
+<!ELEMENT rodzina (#PCDATA)>
+<!ELEMENT czestotliwosc (#PCDATA)>
+<!ELEMENT RAM (typ?, pojemnosc?)>
+<!ATTLIST RAM lutowany (Tak|Nie) "Nie">
+<!ELEMENT typ (#PCDATA)>
+<!ELEMENT pojemnosc (#PCDATA)>
+<!ATTLIST pojemnosc jednostka (MB|KB|GB) #REQUIRED>
+<!ELEMENT karta_graficzna (producent?, model_gpu?)>
+<!ELEMENT model_gpu (#PCDATA)>
+<!ELEMENT dysk (pojemnosc?)>
+<!ATTLIST dysk rodzaj_zlacza (ATA|SATA) #IMPLIED>
+<!ELEMENT system_operacyjny (#PCDATA)>
+<!ATTLIST system_operacyjny %jezyk_entity;>
+<!ELEMENT pakiet_biurowy (#PCDATA)>
+<!ATTLIST pakiet_biurowy %jezyk_entity;>
+<!ELEMENT matryca (rozdzielczosc?, wielkosc?)>
+<!ELEMENT rozdzielczosc (ilosc_pikseli_poziom?, ilosc_pikseli_pion?)>
+<!ELEMENT ilosc_pikseli_poziom (#PCDATA)>
+<!ELEMENT ilosc_pikseli_pion (#PCDATA)>
+<!ELEMENT wielkosc (#PCDATA)>
+<!ELEMENT link EMPTY>
+<!ATTLIST link %link_entity;>
+<!ELEMENT zdjecie EMPTY>
+<!ATTLIST zdjecie %link_entity;>
+<!ELEMENT klauzula (#PCDATA)>
+<!ELEMENT wydarzenie (#PCDATA)>
